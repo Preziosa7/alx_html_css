@@ -7,15 +7,53 @@ main {
     display: flex;
     flex-direction: row;
     flex: auto;
+    background-color: #f0f0f0;
+   color: #333;
+   font-family: 'Roboto', sans-serif;
 }
 
 article {
     flex: 2;
     overflow-y: auto;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    padding: 20px;
+    border-radius: 8px;
+    margin: 20px;
+}
+
+article a:hover {
+    color: #0077b5;
+    text-decoration: underline;
 }
 
 aside {
     flex: 1;
     overflow-y: auto;
 }
+
+.logo {
+  font-size: 2rem; /* Larger size for emphasis */
+  margin-right: 20px;
+  color: #ff9800;
+  transition: color 0.3s ease;
+}
+
+/* Adding a microinteraction on hover */
+.logo:hover {
+  color: #e65100;
+}
+
+
+@media (max-width: 600px) {
+  body.works_on_smartphone main {
+    flex-direction: column;
+  }
+
+  header ul {
+    flex-direction: column;
+    align-items: center;
+  }
+}
+
 
