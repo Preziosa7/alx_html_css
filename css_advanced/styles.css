@@ -1,0 +1,105 @@
+/* 1. Reset + base font */
+* { box-sizing: border-box; margin:0; padding:0; }
+body {
+  font-family: 'Source Sans Pro', sans-serif;
+  line-height:1.5;
+  color:#333;
+}
+
+/* 2. HEADER */
+header {
+  position: absolute;
+  top: 0; left: 0;
+  width: 100%;
+  padding: 40px 80px;
+  z-index: 100;
+}
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+nav img {
+  width: 150px; /* Figma logo width */
+}
+nav ul {
+  list-style: none;
+  display: flex;
+  gap: 48px;
+}
+nav ul li {
+  font-size: 14px;
+  font-weight: 700;
+  letter-spacing: .1em;
+  color: #fff;
+}
+
+/* 3. FIRST SECTION (HERO/BANNER) */
+main > section:first-of-type {
+  display: grid;
+  grid-template-columns: 58% 42%;
+  grid-template-rows: auto auto;
+  gap: 64px 48px;
+  padding: 160px 80px 128px;
+  background-image: url(images/Object.png);
+  color: #fff;
+}
+
+/* 3a. Left column: big title + spans + button */
+main > section:first-of-type > div:nth-child(1) {
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+}
+main > section:first-of-type h1 {
+  font-family: 'Spin Cycle OT', cursive;
+  font-size: 56px;
+  line-height: 1;
+}
+main > section:first-of-type span {
+  display: block;
+  font-family: 'Spin Cycle OT', cursive;
+  font-size: 120px;
+  line-height: 1;
+  letter-spacing: .05em;
+}
+main > section:first-of-type button {
+  width: max-content;
+  padding: 16px 32px;
+  font-size: 14px;
+  font-weight: 600;
+  letter-spacing: .1em;
+  background: #fff;
+  color: #5E4DB6;
+  border: none;
+  border-radius: 12px;
+  cursor: pointer;
+}
+
+/* 3b. “Learn from the pros” */
+main > section:first-of-type > div:nth-child(2) h2 {
+  font-size: 32px;
+  font-weight: 700;
+}
+
+/* 3c. Tutor cards */
+main > section:first-of-type > div:nth-child(n+3) {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 16px;
+}
+main > section:first-of-type img {
+  width: 112px;
+  height: 112px;
+  border-radius: 50%;
+}
+main > section:first-of-type h3 {
+  font-size: 18px;
+  font-weight: 600;
+}
+main > section:first-of-type p {
+  font-size: 14px;
+  color: rgba(255,255,255,0.6);
+}
