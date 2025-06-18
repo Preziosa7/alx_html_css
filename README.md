@@ -1,8 +1,9 @@
 # alx_html_css
-Smileschool Landing Page
+SMILESCHOOL LANDING PAGE
 A cheerful, responsive landing page that teaches the art of smiling. Built with semantic HTML and CSS, this project showcases modern layout techniques and simple interactivity.
 
-Features
+FEATURES
+
 Responsive header with logo and navigation
 
 Hero section with headline, rotating keywords, and a call-to-action
@@ -19,7 +20,8 @@ FAQ accordion
 
 Footer with social icons
 
-Tech Stack
+TECH STACK 
+
 HTML5
 
 CSS3 (Flexbox & Grid)
