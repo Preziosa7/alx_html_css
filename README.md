@@ -91,6 +91,8 @@ headphones/
 ├── 0-styles.css       ← global reset + header/hero styles
 └── README.md          ← you are here
 
+
+
 🎯 Usage
 Launch 0-index.html
 
