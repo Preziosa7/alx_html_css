@@ -98,6 +98,8 @@ Resize your browser to see the switch between desktop and mobile layouts
 
 Hover links and buttons to test interactive states
 
+
+
 🛤 Next Steps
 With the header/hero in place, you can tackle the following sections:
 
@@ -115,6 +117,8 @@ Hamburger Menu – a mobile toggle with vanilla JavaScript
 
 Feel free to branch off for each milestone or continue on main.
 
+
+
 🙋 Author & Credits
 Project Student: Precious (you!)
 
@@ -123,6 +127,8 @@ UI/UX Design: Nicolas Philippot
 Course: ALX Africa → Front-End Web Development
 
 Inspiration: Building robust foundations: CSS reset, variables, semantic markup
+
+
 
 📄 License
 This project is open-sourced under the MIT License. Feel free to copy, adapt and share—but don’t forget to drop a ⭐️!
