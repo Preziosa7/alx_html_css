@@ -100,6 +100,7 @@ Hover links and buttons to test interactive states
 
 
 
+
 🛤 Next Steps
 With the header/hero in place, you can tackle the following sections:
 
@@ -116,6 +117,7 @@ Animations – hover or infinite keyframes for sections
 Hamburger Menu – a mobile toggle with vanilla JavaScript
 
 Feel free to branch off for each milestone or continue on main.
+
 
 
 
