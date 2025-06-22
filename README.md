@@ -1,4 +1,3 @@
-# alx_html_css
 🎧 Headphones Landing Page
 
 A pixel-perfect, responsive landing page built from scratch using only HTML and CSS. This first milestone replicates the **header/hero** section of a Figma design by Nicolas Philippot.
@@ -135,4 +134,4 @@ Inspiration: Building robust foundations: CSS reset, variables, semantic markup
 
 
 📄 License
-This project is open-sourced under the MIT License. Feel free to copy, adapt and share—but don’t forget to drop a ⭐️!
+This project is open-sourced under the MIT License. Feel free to copy, adapt and share—but don’t forget to drop a ⭐️!S
